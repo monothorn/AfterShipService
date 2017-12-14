@@ -1,6 +1,6 @@
 class AfterShipService {
   constructor() {
-    const AfterShipToken = sails.config.custom.aftership.TOKEN;
+    const AfterShipToken = aftership_token;
     //default constructor
     this.AfterShip = require('aftership')(AfterShipToken);
   }
